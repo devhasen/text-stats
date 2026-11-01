@@ -1,0 +1,9 @@
+{
+  "name": "text-stats",
+  "version": "1.0.0",
+  "description": "Count lines, words, chars in a file or stdin",
+  "main": "dist/index.js",
+  "bin": { "tstats": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" }
+}
